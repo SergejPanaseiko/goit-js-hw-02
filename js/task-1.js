@@ -1,6 +1,6 @@
 function makeTransaction(quantity, pricePerDroid, customerCredits) {
     let purchaseСost = quantity * pricePerDroid;
-    if (purchaseСost <= customerCredits) return `You ordered ${quantity} droids worth ${customerCredits} credits!`;
+    if (purchaseСost <= customerCredits) return `You ordered ${quantity} droids worth ${purchaseСost} credits!`;
     else return "Insufficient funds!";
 }
 console.log("-------------- Задача 1 -----------------")
